@@ -1,4 +1,15 @@
-git+https://github.com/openai/whisper.git
-ffmpeg-python==0.2.0
-torch==2.7.0
-numpy==2.2.5
+# Core transcription dependencies
+openai-whisper @ git+https://github.com/openai/whisper.git@main    # :contentReference[oaicite:10]{index=10}
+ffmpeg-python==0.2.0                                               # :contentReference[oaicite:11]{index=11}
+numpy==2.2.5                                                       # :contentReference[oaicite:12]{index=12}
+torch==2.7.0                                                       # :contentReference[oaicite:13]{index=13}
+torchaudio==2.7.0                                                  # :contentReference[oaicite:14]{index=14}
+
+# Audio preprocessing
+noisereduce==3.0.3                                                 # :contentReference[oaicite:15]{index=15}
+soundfile==0.13.1                                                  # :contentReference[oaicite:16]{index=16}
+
+# Testing
+pytest==8.3.5                                                      # :contentReference[oaicite:17]{index=17}
+
+
