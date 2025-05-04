@@ -1,0 +1,2 @@
+# transcriber-prototype
+ A prototípus egy egyszerű, parancssorból futtatható (CLI) alkalmazás, amely helyi gépen képes egy adott WAV hangfájlból magyar nyelvű szöveges átiratot készíteni az OpenAI Whisper modell segítségével. Az alkalmazás Python alapú, könnyen telepíthető, és az eredményt JSON-formátumban menti el, amely később könnyedén feldolgozható és integrálható más rendszerekbe (pl. webes backend vagy mobil frontend).
